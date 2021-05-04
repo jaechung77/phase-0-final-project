@@ -8,11 +8,12 @@ a{
     text-decoration: none;
 }
 
-#countries{
+.countries{
     display:none;
 }
 
-#countries.active{
-    display block;
+.countries.active
+{
+    display: block;
     list-style: none;
 }
