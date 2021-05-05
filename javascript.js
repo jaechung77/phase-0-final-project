@@ -13,11 +13,11 @@ toggleList.addEventListener("click", function(){
 for (let i=0; i < country.length; i++){
     country[i].addEventListener("change", function(){
         selected= true;
-        console.log("Inside Loop: " + selected);
+        console.log("In the Loop: " + selected);
         //submit.classList.toggle("active"); 
     });
 }
-console.log("Outside of Loop: " + selected);
+console.log("Outside of the Loop: " + selected);
 if (selected){
      submit.classList.toggle("active");    
 }  
