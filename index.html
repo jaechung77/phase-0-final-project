@@ -9,22 +9,23 @@
 
 </head>
 <body>
-    <h1>After the border is open, where do you want to visit?</h1>
-    <h2>Don't be greedy. Choose only one country.</h2>
-    
-    <div>
-        <ul>
-            <p><a href="#" class="toggleList">Europe</a></p>
-                <ui class = "countries">
-                    <li><input type="radio" name="country" value="UK">UK</li>
-                    <li><input type="radio" name="country" value="France">France</li>
-                    <li><input type="radio" name="country" value="Germany">Germany</li>
-                    <li><input type="radio" name="country" value="Italy">Italy</li>
-                    <li><input type="radio" name="country" value="Greece">Greece</li>
-                </ui>
-        </ul>
-
-    </div>
+    <form>
+        <h1>After the border is open, where do you want to visit?</h1>
+        
+        <div>
+            <ul>
+                <div><a href="#" class="toggleList">Country List</a></div>
+                    <ui class = "destinations">
+                        <li><input type="radio" name="country" value="UK">UK</li>
+                        <li><input type="radio" name="country" value="France">France</li>
+                        <li><input type="radio" name="country" value="Germany">Germany</li>
+                        <li><input type="radio" name="country" value="Italy">Italy</li>
+                        <li><input type="radio" name="country" value="Greece">Greece</li>
+                    </ui>
+            </ul>
+            <input id="submit" type="button" value="submit">
+        </div>
+    </form>   
 </body>
 </html>
 

@@ -2,17 +2,36 @@ body {
     background-color: black;
     font-family: arial;
     color: white;
+    background-image: url(./img/qantas.jpg);
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
 }
-a{
+a {
     color: white;
     text-decoration: none;
 }
 
-.countries{
+h1 {
+    text-align: center;
+    color: rgb(255, 0, 200);
+}
+
+.destinations{
     display:none;
 }
 
-.countries.active
+.destinations.active
+{
+    display: block;
+    list-style: none;
+}
+
+#submit{
+    display:none; 
+}
+
+#submit.active
 {
     display: block;
     list-style: none;
